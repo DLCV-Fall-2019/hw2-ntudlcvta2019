@@ -69,17 +69,7 @@ We will run your code in the following manner:
 where `$1` is the testing images directory (e.g. `test/images`), and `$2` is the output prediction directory (e.g. `test/labelTxt_hbb_pred/` ). Please to not create the output prediction directory in your script or python codes.
 
 ### Packages
-Below is a list of packages you are allowed to import in this assignment:
-
-> [`python`](https://www.python.org/): 3.6  
-> [`tensorflow`](https://www.tensorflow.org/): 1.13  
-> [`keras`](https://keras.io/): 2.2+  
-> [`torch`](https://pytorch.org/): 1.0  
-> [`h5py`](https://www.h5py.org/): 2.9.0  
-> [`numpy`](http://www.numpy.org/): 1.16.2  
-> [`pandas`](https://pandas.pydata.org/): 0.24.0  
-> [`torchvision`](https://pypi.org/project/torchvision/), [`cv2`](https://pypi.org/project/opencv-python/), [`matplotlib`](https://matplotlib.org/), [`skimage`](https://scikit-image.org/), [`Pillow`](https://pillow.readthedocs.io/en/stable/), [`scipy`](https://www.scipy.org/)  
-> [The Python Standard Library](https://docs.python.org/3/library/)
+This homework should be done using python3.6. For a list of packages you are allowed to import in this assignment, please refer to the requirments for more details.
 
 You can run the following command to install all the packages listed in the requirements.txt:
     pip3 install -r requirements.txt
