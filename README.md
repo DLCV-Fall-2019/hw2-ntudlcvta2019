@@ -55,7 +55,7 @@ Note that while it is possible to continue your work in this repository after th
 ### Submission Format
 Aside from your own Python scripts and model files, you should make sure that your submission includes *at least* the following files in the root directory of this repository:
  1.   `hw2_<StudentID>.pdf`  
-The report of your homework assignment. Refer to the "*Grading Policy*" section in the slides for what you should include in the report. Note that you should replace `<StudentID>` with your student ID, **NOT** your GitHub username.
+The report of your homework assignment. Refer to the "*Submission*" section in the slides for what you should include in the report. Note that you should replace `<StudentID>` with your student ID, **NOT** your GitHub username.
  2.   `hw2.sh`  
 The shell script file for running your baseline model.
  3.   `hw2_best.sh`  
