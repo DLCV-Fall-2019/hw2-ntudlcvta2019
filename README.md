@@ -5,7 +5,7 @@
 # HW2 Problem 1― Semantic Segmentation
 In HW2 problem 1, you will need to implement two semantic segmentation models and answer some questions in the report.
 
-For more details, please click [this link](https://drive.google.com/file/d/1NLhvpKT8LrF-oOuFlz4sSuiX5AmUDw1Y/view?usp=sharing) to view the slides of HW2.
+For more details, please click [this link](https://drive.google.com/file/d/1NLhvpKT8LrF-oOuFlz4sSuiX5AmUDw1Y/view?usp=sharing) to view the slides of HW2 and [this link](https://drive.google.com/file/d/1W29SSyjGmUBmoq0dSW8qbHZ8xpdgLL6j/view?usp=sharing) to view the slides of HW2 problem 1.
 
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.
