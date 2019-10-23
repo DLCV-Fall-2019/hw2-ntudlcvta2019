@@ -2,7 +2,7 @@
 
 
 
-# HW2 ― Semantic
+# HW2 Problem 1― Semantic Segmentation
 In this assignment, you are given a dataset of aerial images. Your task is to detect and classify the objects present in the images by determining their bounding boxes.
 
 ![enter image description here](https://lh3.googleusercontent.com/jUokHJn3aphsNTopJSh_tMxOvCTHK65EJLCVV-RBW-2LRxSIla7aS8KmbtKn05mcwUxDuIxF8b4)
@@ -71,7 +71,7 @@ where `$1` is the testing images directory (e.g. `test/images`), and `$2` is the
 ### Packages
 Below is a list of packages you are allowed to import in this assignment:
 
-> [`python`](https://www.python.org/): 3.5+  
+> [`python`](https://www.python.org/): 3.6  
 > [`tensorflow`](https://www.tensorflow.org/): 1.13  
 > [`keras`](https://keras.io/): 2.2+  
 > [`torch`](https://pytorch.org/): 1.0  
@@ -80,6 +80,9 @@ Below is a list of packages you are allowed to import in this assignment:
 > [`pandas`](https://pandas.pydata.org/): 0.24.0  
 > [`torchvision`](https://pypi.org/project/torchvision/), [`cv2`](https://pypi.org/project/opencv-python/), [`matplotlib`](https://matplotlib.org/), [`skimage`](https://scikit-image.org/), [`Pillow`](https://pillow.readthedocs.io/en/stable/), [`scipy`](https://www.scipy.org/)  
 > [The Python Standard Library](https://docs.python.org/3/library/)
+
+You can run the following command to install all the packages listed in the requirements.txt:
+    pip3 install -r requirements.txt
 
 Note that using packages with different versions will very likely lead to compatibility issues, so make sure that you install the correct version if one is specified above. E-mail or ask the TAs first if you want to import other packages.
 
@@ -91,5 +94,8 @@ Note that using packages with different versions will very likely lead to compat
 # Q&A
 If you have any problems related to HW2, you may
 - Use TA hours (please check [course website](http://vllab.ee.ntu.edu.tw/dlcv.html) for time/location)
+    - Monday    11:00-12:00
+    - Tuesday   11:00-12:00
+    - Thursday  10:00-11:00
 - Contact TAs by e-mail ([ntudlcvta2019@gmail.com](mailto:ntudlcvta2019@gmail.com))
 - Post your question in the comment section of [this post](https://www.facebook.com/notes/dlcv-spring-2019/hw2-q-a/318555458854838/)
