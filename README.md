@@ -33,7 +33,7 @@ To evaluate your model, you can run the provided evaluation script provided in t
 Note that your predicted segmentation semantic map file should have the same filename as that of its corresponding ground truth label file (both of extension ``.png``).
 
 ### Visualization
-To visualization the ground truth or predicted bounding boxes in an image, you can run the provided visualization script provided in the starter code by using the following command.
+To visualization the ground truth or predicted semantic segmentation map in an image, you can run the provided visualization script provided in the starter code by using the following command.
 
     python3 viz_mask.py <--img_path xxxx.png> <--seg_path xxxx.png>
 
