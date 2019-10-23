@@ -5,7 +5,7 @@
 # HW2 Problem 1― Semantic Segmentation
 In HW2 problem 1, you will need to implement two semantic segmentation models and answer some questions in the report.
 
-For more details, please click [this link](https://drive.google.com/file/d/1NLhvpKT8LrF-oOuFlz4sSuiX5AmUDw1Y/view?usp=sharing) to view the slides of HW2 and [this link](https://drive.google.com/file/d/1W29SSyjGmUBmoq0dSW8qbHZ8xpdgLL6j/view?usp=sharing) to view the slides of HW2 problem 1.
+For more details, please click [this link](https://drive.google.com/file/d/1NLhvpKT8LrF-oOuFlz4sSuiX5AmUDw1Y/view?usp=sharing) to view the slides of HW2 and click [this link](https://drive.google.com/file/d/1W29SSyjGmUBmoq0dSW8qbHZ8xpdgLL6j/view?usp=sharing) to view the slides of HW2 problem 1.
 
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.
@@ -25,12 +25,12 @@ The shell script will automatically download the dataset and store the data in a
 ### Evaluation
 To evaluate your model, you can run the provided evaluation script provided in the starter code by using the following command.
 
-    python3 mean_iou_evaluate.py <--pred PredictionDir> <--labels AnnotationDir>
+    python3 mean_iou_evaluate.py <--pred PredictionDir> <--labels GroundTruthDir>
 
  - `<PredictionDir>` should be the directory to your predicted semantic segmentation map (e.g. `hw2_data/prediction/`)
- - `<AnnotationDir>` should be the directory of ground truth (e.g. `hw2_data/val/seg/`)
+ - `<GroundTruthDir>` should be the directory of ground truth (e.g. `hw2_data/val/seg/`)
 
-Note that your predicted label file should have the same filename as that of its corresponding ground truth label file (both of extension ``.png``).
+Note that your predicted segmentation semantic map file should have the same filename as that of its corresponding ground truth label file (both of extension ``.png``).
 
 ### Visualization
 To visualization the ground truth or predicted bounding boxes in an image, you can run the provided visualization script provided in the starter code by using the following command.
@@ -51,6 +51,7 @@ Note that while it is possible to continue your work in this repository after th
 -   If you refer to some parts of the public code, you are required to specify the references in your report (e.g. URL to GitHub repositories).      
 -   You are encouraged to discuss homework assignments with your fellow class members, but you must complete the assignment by yourself. TAs will compare the similarity of everyone’s submission. Any form of cheating or plagiarism will not be tolerated and will also result in an **F** grade for students with such misconduct.
 
+
 ### Submission Format
 Aside from your own Python scripts and model files, you should make sure that your submission includes *at least* the following files in the root directory of this repository:
  1.   `hw2_<StudentID>.pdf`  
@@ -62,9 +63,9 @@ The shell script file for running your improved model.
 
 We will run your code in the following manner:
 
-    bash ./hw2.sh $1 $2
-    bash ./hw2_best.sh $1 $2
-where `$1` is the testing images directory (e.g. `test/images`), and `$2` is the output prediction directory (e.g. `test/labelTxt_hbb_pred/` ). Please to not create the output prediction directory in your script or python codes.
+    CUDA_VISIBLE_DEVICES=GPU_NUMBER bash hw2.sh $1 $2
+    CUDA_VISIBLE_DEVICES=GPU_NUMBER bash hw2_best.sh $1 $2
+where `$1` is the testing images directory (e.g. `test/images`), and `$2` is the output prediction directory (e.g. `test/labelTxt_hbb_pred/` ). Please do not create the output prediction directory in your bash script or python codes.
 
 ### Packages
 This homework should be done using python3.6. For a list of packages you are allowed to import in this assignment, please refer to the requirments for more details.
@@ -77,7 +78,7 @@ Note that using packages with different versions will very likely lead to compat
 ### Remarks
 - If your model is larger than GitHub’s maximum capacity (100MB), you can upload your model to another cloud service (e.g. Dropbox). However, your shell script files should be able to download the model automatically. For a tutorial on how to do this using Dropbox, please click [this link](https://goo.gl/XvCaLR).
 - **DO NOT** hard code any path in your file or script, and the execution time of your testing code should not exceed an allowed maximum of **10 minutes**.
-- **If we fail to run your code due to not following the submission rules, you will receive 0 credit for this assignment.**
+- **Please refer to HW2 problem 1 slides for details about the penalty that may incur if we fail to run your code or reproduce your results.**
 
 # Q&A
 If you have any problems related to HW2, you may
