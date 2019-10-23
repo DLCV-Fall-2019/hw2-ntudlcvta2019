@@ -3,11 +3,9 @@
 
 
 # HW2 Problem 1― Semantic Segmentation
-In this assignment, you are given a dataset of aerial images. Your task is to detect and classify the objects present in the images by determining their bounding boxes.
+In HW2 problem1, you are asked to you will need to implement two semantic segmentation models and answer some questions in the report. For more details, please click this link to view the slides of HW2 
 
-![enter image description here](https://lh3.googleusercontent.com/jUokHJn3aphsNTopJSh_tMxOvCTHK65EJLCVV-RBW-2LRxSIla7aS8KmbtKn05mcwUxDuIxF8b4)
-
-For more details, please click [this link](https://docs.google.com/presentation/d/1CiO0rZzYbPabMjcgDGfRS6V85bRTLvR5cY3jiEngeLc/edit?usp=sharing) to view the slides of HW2.
+For more details, please click [this link](https://drive.google.com/file/d/1NLhvpKT8LrF-oOuFlz4sSuiX5AmUDw1Y/view?usp=sharing) to view the slides of HW2.
 
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.
@@ -27,9 +25,9 @@ The shell script will automatically download the dataset and store the data in a
 ### Evaluation
 To evaluate your model, you can run the provided evaluation script provided in the starter code by using the following command.
 
-    python3 mean_iou_evaluate.py <--labels AnnotationDir> <--pred >
+    python3 mean_iou_evaluate.py <--pred PredictionDir> <--labels AnnotationDir>
 
- - `<PredictionDir>` should be the directory to output your predicted semantic segmentation map (e.g. `hw2_data/prediction/`)
+ - `<PredictionDir>` should be the directory to your predicted semantic segmentation map (e.g. `hw2_data/prediction/`)
  - `<AnnotationDir>` should be the directory of ground truth (e.g. `hw2_data/val/seg/`)
 
 Note that your predicted label file should have the same filename as that of its corresponding ground truth label file (both of extension ``.png``).
