@@ -65,10 +65,10 @@ We will run your code in the following manner:
 
     CUDA_VISIBLE_DEVICES=GPU_NUMBER bash hw2.sh $1 $2
     CUDA_VISIBLE_DEVICES=GPU_NUMBER bash hw2_best.sh $1 $2
-where `$1` is the testing images directory (e.g. `test/images`), and `$2` is the output prediction directory (e.g. `test/labelTxt_hbb_pred/` ). Please do not create the output prediction directory in your bash script or python codes.
+where `$1` is the testing images directory (e.g. `test/images/`), and `$2` is the output prediction directory (e.g. `test/labelTxt_hbb_pred/` ). Please do not create the output prediction directory in your bash script or python codes.
 
 ### Packages
-This homework should be done using python3.6. For a list of packages you are allowed to import in this assignment, please refer to the requirments for more details.
+This homework should be done using python3.6. For a list of packages you are allowed to import in this assignment, please refer to the requirments.txt for more details.
 
 You can run the following command to install all the packages listed in the requirements.txt:
 
