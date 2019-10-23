@@ -93,9 +93,9 @@ Note that using packages with different versions will very likely lead to compat
 
 # Q&A
 If you have any problems related to HW2, you may
-- Use TA hours (please check [course website](http://vllab.ee.ntu.edu.tw/dlcv.html) for time/location)
-    - Monday    11:00-12:00
-    - Tuesday   11:00-12:00
-    - Thursday  10:00-11:00
+- Use TA hours
+    - Monday    11:00-12:00 @BL-527
+    - Tuesday   11:00-12:00 @BL-527
+    - Thursday  10:00-11:00 @BL-527
 - Contact TAs by e-mail ([ntudlcvta2019@gmail.com](mailto:ntudlcvta2019@gmail.com))
-- Post your question in the comment section of [this post](https://www.facebook.com/notes/dlcv-spring-2019/hw2-q-a/318555458854838/)
+- Post your question in the comment section of [this post](https://www.facebook.com/notes/dlcv-fall-2019/hw2-qa/2788293221194365/)
