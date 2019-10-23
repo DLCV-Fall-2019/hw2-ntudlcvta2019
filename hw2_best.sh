@@ -1,1 +1,1 @@
-# TODO: create shell script for running your improved model
+# TODO: create shell script for running the testing code of your improved model
