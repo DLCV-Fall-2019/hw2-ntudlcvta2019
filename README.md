@@ -3,7 +3,7 @@
 
 
 # HW2 Problem 1― Semantic Segmentation
-In HW2 problem1, you are asked to you will need to implement two semantic segmentation models and answer some questions in the report. For more details, please click this link to view the slides of HW2 
+In HW2 problem 1, you will need to implement two semantic segmentation models and answer some questions in the report.
 
 For more details, please click [this link](https://drive.google.com/file/d/1NLhvpKT8LrF-oOuFlz4sSuiX5AmUDw1Y/view?usp=sharing) to view the slides of HW2.
 
