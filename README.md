@@ -10,7 +10,7 @@ For more details, please click [this link](https://drive.google.com/file/d/1NLhv
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.
 
-    git clone https://github.com/dlcv-fall-2019/hw2-<username>.git
+    git clone https://github.com/DLCV-Fall-2019/hw2-<username>.git
 Note that you should replace `<username>` with your own GitHub username.
 
 ### Dataset
@@ -71,6 +71,7 @@ where `$1` is the testing images directory (e.g. `test/images`), and `$2` is the
 This homework should be done using python3.6. For a list of packages you are allowed to import in this assignment, please refer to the requirments for more details.
 
 You can run the following command to install all the packages listed in the requirements.txt:
+
     pip3 install -r requirements.txt
 
 Note that using packages with different versions will very likely lead to compatibility issues, so make sure that you install the correct version if one is specified above. E-mail or ask the TAs first if you want to import other packages.
